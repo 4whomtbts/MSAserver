@@ -1,0 +1,9 @@
+spring.profiles.active: local
+server:
+  port: 8443
+
+armeria:
+  ports:
+    - port: 8080
+      protocols:
+        - http
